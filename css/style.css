@@ -9,6 +9,45 @@
   margin-right: 40px;
 }
 
+.heroSection {
+  background-image: url(https://images.unsplash.com/photo-1635791012334-f6af2d9b2a78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+.heroSection-content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+.heroSection-content__button {
+  margin-top: 20px;
+}
+
+.iconSection {
+  margin: 60px;
+}
+.iconSection .row {
+  text-align: center;
+}
+.iconSection .bi {
+  color: #1261a0;
+}
+.iconSection-title {
+  margin-top: 10px;
+}
+.iconSection-content {
+  padding: 0 40px;
+}
+.iconSection-link {
+  text-decoration: none;
+  color: #73a5c6;
+  font-size: 15px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

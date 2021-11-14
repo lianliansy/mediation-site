@@ -12,4 +12,50 @@
 	}
 }
 
+.heroSection {
+	background-image: url(https://images.unsplash.com/photo-1635791012334-f6af2d9b2a78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	position: relative;
+
+	&-content {
+		position: absolute;
+		top: 30%;
+		left: 20%;
+		right: 20%;
+		text-align: center;
+
+		&__button {
+			margin-top: 20px;
+		}
+	}
+}
+
+.iconSection {
+	margin: 60px;
+
+	.row {
+		text-align: center;
+	}
+
+	.bi {
+		color: #1261a0;
+	}
+
+	&-title {
+		margin-top: 10px;
+	}
+
+	&-content {
+		padding: 0 40px;
+	}
+
+	&-link {
+		text-decoration: none;
+		color: #73a5c6;
+		font-size: 15px;
+	}
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
