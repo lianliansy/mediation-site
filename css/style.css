@@ -48,6 +48,22 @@
   font-size: 15px;
 }
 
+.introductionSection {
+  background-color: #e9ecef;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introductionSection-btn {
+  margin-top: 30px;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
