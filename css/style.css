@@ -59,9 +59,44 @@
 .introductionSection-btn {
   margin-top: 30px;
 }
+.introductionSection p {
+  text-align: justify;
+  text-indent: 3%;
+  font-size: 18px;
+}
+.introductionSection p::first-letter {
+  font-size: 24px;
+  font-weight: 500;
+}
 
 .carousel-item {
   height: 32rem;
+}
+
+.footer {
+  height: 200px;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+}
+.footer-item {
+  list-style: none;
+  margin-left: 20px;
+}
+.footer-item a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer .contacts-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer .contacts-info {
+  margin: 10px;
 }
 
 /*!
